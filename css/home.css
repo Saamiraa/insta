@@ -1,0 +1,85 @@
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+.headerTop .logo{
+    font-family: "Billabong";
+    font-size: 2.2rem;
+}
+.headerTop .direct{
+    font-size: 1.3rem;
+}
+
+/*Story*/
+.storyContainer{
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 0.5rem;
+}
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.3rem;
+}
+.userProfile img{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    padding: 2px;
+}
+.userProfile span{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 2px;
+}
+.yourProfile img{
+    border-color: gray;
+}
+
+
+/*POST*/
+.postId{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(220,220,220);
+    justify-content: space-between;
+}
+.postId .userProfile{
+    flex-direction: row;
+}
+.postId .userProfile img{
+    width: 40px;
+    border-width: 1px;
+    padding: 1px;
+    margin-right: 0.3rem;
+}
+.more{
+    font-size: 1.5rem;
+}
+.postContainer img{
+    width: 100%;
+}
+.postIcon{
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+.postIcon i{
+    cursor: pointer;
+    padding: 2px;
+}
+.postIcon .like{
+    color: #ed143d;
+}
+.postIcon .save{
+    margin: 0 0 0 auto;
+}
+.postDetail{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
